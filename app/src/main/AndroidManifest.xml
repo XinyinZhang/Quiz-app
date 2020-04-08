@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.uwaterloo.cs349.a4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quiz App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TopicSelection"
+            android:label="Topic Selection" />
+        <activity
+            android:name=".QuestionPage1"
+            android:label="Question1" />
+        <activity
+            android:name=".QuestionPage2"
+            android:label="Question2" />
+        <activity
+            android:name=".QuestionPage3"
+            android:label="Question3" />
+        <activity
+            android:name=".QuestionPage4"
+            android:label="Question4" />
+        <activity
+            android:name=".QuestionPage5"
+            android:label="Question5">
+        </activity>
+        <activity android:name=".Results"
+            android:label="Results">
+        </activity>
+    </application>
+
+</manifest>
